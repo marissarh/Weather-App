@@ -15,21 +15,29 @@
   </head>
   <body>
     <div class="container">
+        <div class="weather-app-wrapper">
         <div class="weather-app">
+            <div class="overview">
       <h1>New York</h1>
       <ul>
         <li>Friday 05:00</li>
         <li>clear</li>
       </ul>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-6">
+            <div class="clearfix weather temperature">
+
+            
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="Clear"
-          />
-          12°C | °F
+            class="float-left"/>
+          <div class="float-left"><strong>12</strong>
+            <span class="units">C | <a href="#">°F</a></span></div>
         </div>
-        <div class="col-md-6">
+        </div>
+        </div>
+        <div class="col-6">
             <ul>
                 <li>
                     Precipitation:0%
@@ -40,12 +48,13 @@
                 wind: 2 km/h
             </li>
             </ul>
-        </div>
       </div>
       </div>
-      <small>
+    </div>
+     <small>
           <a href="https://github.com/mbutto26/Weather-App" target="blank">Open-source code</a>, by Marissa B
       </small>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
