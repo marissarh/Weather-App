@@ -4,26 +4,26 @@ body {
 
 h1 {
   color: #878787;
-  display: block;
-  margin-bottom: 0;
   font-size: 24px;
   font-weight: 100;
-  line-height: 28.8px;
+  line-height: 28px;
   text-align: left;
+  margin-bottom: 0;
 }
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: rbg(135, 135, 135);
-  display: block;
-  font-size: 16px;
-  font-weight: 100;
-}
-
 ul {
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  color: rbg(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
 }
 
 .weather-app-wrapper {
@@ -32,7 +32,7 @@ ul {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #c5cbd2;
   border-radius: 5px;
 }
 .overview {
